@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.internetvitals/internetvitals",
+  "title": "InternetVitals",
+  "description": "Live status, incidents and health score for 41 internet services: AWS, Cloudflare, GitHub, OpenAI…",
+  "version": "1.0.0",
+  "websiteUrl": "https://internetvitals.com/developers",
+  "repository": {
+    "url": "https://github.com/internetvitals/mcp-server",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/internetvitals/mcp-server/main/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://internetvitals.com/mcp"
+    }
+  ]
+}
